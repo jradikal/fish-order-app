@@ -1,5 +1,5 @@
 import React from "react";
+import { render } from "react-dom";
+import StorePicker from "./components/StorePicker.js";
 
-class StorePicker extends React.Component {}
-
-history;
+render(<StorePicker />, document.querySelector("#main"));
